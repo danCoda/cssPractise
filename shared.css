@@ -11,6 +11,7 @@
   width: 100%;
   background-color: greenyellow;
   padding: 10px;
+  position: fixed;
 }
 
 .main-header > div,
