@@ -1,11 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-  margin: 0;
-}
 
 #product-overview {
   background: #ff1b68;
@@ -75,28 +67,6 @@ body {
   border-radius: 10px;
 }
 
-.button {
-  background: darkgoldenrod;
-  font: inherit;
-  color: black;
-  padding: 5px;
-  border: 1px solid white;
-  border-radius: 10px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.button:hover,
-.button:active {
-  color: white;
-  background: black;
-}
-
-.button:focus,
-.button:focus-visible {
-  outline: none;
-}
-
 #key-features {
   background: dimgrey;
   margin-top: 80px;
@@ -138,96 +108,4 @@ body {
     font-size: 20px;
 }
 
-.main-header {
-  width: 100%;
-  background-color: greenyellow;
-  padding: 10px;
-}
 
-.main-header > div,
-.main-nav {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.main-header__brand {
-  color: green;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 30px;
-}
-
-.main-nav {
-  text-align: right;
-  width: calc(100% - 100px);
-}
-
-.main-nav__items {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.main-nav__item {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.main-nav__item a {
-  color: gray;
-  text-decoration: none;
-  padding-bottom: 12px;
-  font-weight: bold;
-}
-
-.main-nav__item a::after {
-  content: " (link)";
-  font-size: small;
-}
-
-.main-nav__item a:hover,
-.main-nav__item a:active {
-  border-bottom: 5px solid blue;
-  color: blue;
-}
-
-.main-nav__item--cta a {
-  color: white;
-  background: red;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-.main-nav__item--cta a:hover,
-.main-nav__item--cta a:active {
-  background: white;
-  border: none;
-}
-
-.main-footer {
-    background: black;
-    padding: 32px;
-    margin-top: 50px;
-}
-
-.main-footer__links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-.main-footer__link {
-    margin: 0 16px;
-    display: inline-block;
-}
-
-.main-footer__link a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.main-footer__link a:hover,
-.main-footer__link a:active {
-    color: grey;
-}
