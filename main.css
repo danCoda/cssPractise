@@ -17,6 +17,12 @@
   font-family: "Anton", sans-serif;
 }
 
+.plan__list {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
 .plan {
   background: aqua;
   text-align: center;
