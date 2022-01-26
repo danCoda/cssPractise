@@ -4,6 +4,8 @@
   height: 530px;
   padding: 20px;
   background: url("./images/piano.jpg");
+  margin-top: 56px;
+  position: relative;
 }
 
 .section-title {
@@ -14,6 +16,8 @@
 #product-overview h1 {
   color: white;
   font-family: "Anton", sans-serif;
+  position: absolute;
+  bottom: 0%;
 }
 
 .plan__list {
