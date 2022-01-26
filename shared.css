@@ -12,6 +12,7 @@
   background-color: greenyellow;
   padding: 10px;
   position: fixed;
+  z-index: 1;
 }
 
 .main-header > div,
