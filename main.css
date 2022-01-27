@@ -13,7 +13,9 @@
   background-origin: border-box;
   background-clip: border-box;
   background-attachment:scroll; */
-  background: url("./images//piano.jpg") right bottom 70% / cover no-repeat border-box;
+  background: linear-gradient(to top, transparent, blue), url("./images//piano.jpg") right bottom 70% / cover no-repeat border-box, grey;
+
+  /* background-image: linear-gradient(to right bottom, red, blue, transparent); */
 }
 
 .section-title {
@@ -109,12 +111,13 @@
 }
 
 .key-feature__image {
-  background: pink;
+  background: aquamarine;
   width: 120px;
   height: 120px;
   border: 2px solid grey;
   border-radius: 50%;
   margin: auto;
+  padding: 20px;
 }
 
 .key-feature__description {
