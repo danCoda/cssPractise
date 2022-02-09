@@ -5,7 +5,7 @@
   padding: 20px;
   margin-top: 56px;
   position: relative;
-  
+
   /* background-image: url("./images/piano.jpg");
   background-position: right bottom 44%;
   background-size: cover;
@@ -13,14 +13,11 @@
   background-origin: border-box;
   background-clip: border-box;
   background-attachment:scroll; */
-  background: linear-gradient(to top, transparent, blue), url("./images//piano.jpg") right bottom 55% / cover no-repeat border-box, grey;
+  background: linear-gradient(to top, transparent, blue),
+    url("./images//piano.jpg") center/cover no-repeat border-box,
+    grey;
 
   /* background-image: linear-gradient(to right bottom, red, blue, transparent); */
-}
-
-.section-title {
-  color: #2ddf5c;
-  text-align: center;
 }
 
 #product-overview h1 {
@@ -28,22 +25,36 @@
   font-family: "Anton", sans-serif;
   position: absolute;
   bottom: 0%;
+  font-size: 1.6rem;
 }
 
-.plan__list {
+@media (min-width: 40rem) {
+  #product-overview {
+    height: 50vh;
+    background-position: 50% 25%;
+  }
+  #product-overview h1 {
+    font-size: 3rem;
+  }
+  }
+}
+
+.section-title {
+  color: #2ddf5c;
+  text-align: center;
+}
+
+/*.plan__list {
   margin: auto;
   width: 100%;
   text-align: center;
-}
+}*/
 
 .plan {
   background: aqua;
   text-align: center;
   padding: 16px;
-  margin: 8px;
-  display: inline-block;
-  width: 30%;
-  vertical-align: middle;
+  width: 100%;
 }
 
 .plan__title {
@@ -104,6 +115,21 @@
   text-align: center;
 }
 
+@media (min-width: 40rem){
+  .plan__list {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .plan {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    min-width: 13rem;
+    max-width: 25rem;
+  }
+}
 .key-feature {
   display: inline-block;
   width: 30%;
